@@ -47,3 +47,11 @@ db.sqlite3
 # Django
 media/
 staticfiles/
+
+
+
+node_modules/
+media/
+__pycache__/
+*.py[cod]
+db.sqlite3
