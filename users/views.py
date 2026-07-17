@@ -26,3 +26,5 @@ def save_user(request):
             "message": "User saved",
             "created": created
         })
+    
+    return JsonResponse({"error": "Only POST allowed"}, status=405)
